@@ -31,3 +31,6 @@
 
 en:
   hello: "Hello world"
+  errors:
+    messages:
+      invalid_sun_asterisk_format: "must be in sun-asterisk.com domain"
