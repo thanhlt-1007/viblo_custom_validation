@@ -1,7 +1,7 @@
 class User < ApplicationRecord
   validates :email, presence: true
   # validate :email_sun_asterisk_format
-  validates :email, sun_asterisk_format: true
+  validates :email, sun_asterisk_format: { message: "must be in sun-asterisk.com domain" }
 
   # private
 
